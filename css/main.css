@@ -1,0 +1,72 @@
+body {
+  background-color: #aab8c2;
+}
+.widget {
+  background-color: white;
+  padding: 30px;
+  width: 500px;
+  margin: 0 auto;
+}
+.widget header {
+  background-color: #1da1f2;
+  padding: 15px;
+  margin: 5px 0 20px 0;
+  text-align: center;
+}
+.widget h1 {
+  color: white;
+  display: inline-block;
+  margin: 0px;
+}
+.widget img {
+  display: inline-block;
+  width: 38px;
+  margin-left: 20px;
+}
+.count-wrapper {
+  display: inline;
+  padding: 5px 5px 20px 0px;
+  color: #657786;
+  font-family: Verdana, sans-serif, Arial;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+}
+#countdown {
+  display: inline-block;
+}
+.message {
+  display: inline-block;
+}
+.search-wrapper {
+  margin-bottom: 5px;
+}
+.search-wrapper button {
+  background-color: #657786;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+}
+#term {
+  padding: 7px 12px;
+  display: inline-block;
+  font-size: 12px;
+}
+.error {
+  margin-top: 15px;
+  color: red;
+  font-family: Verdana, sans-serif, Arial;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+@media (max-width: 500px){
+  .widget {
+    width: 100%;
+  }
+}
